@@ -1,0 +1,46 @@
+{
+  "weight": 0,
+  "abandonable": false,
+  "repeatable": true,
+  "color": {
+    "r": 167,
+    "g": 255,
+    "b": 66
+  },
+  "activeStage": 10,
+  "stages": [
+    {
+      "stage": 0,
+      "nextStage": 10,
+      "icon": "FOUR_POINTED_STAR",
+      "objectives": [
+        "BLOCKER"
+      ],
+      "actions": []
+    },
+		{
+			"stage": 10,
+			"nextStage": -1,
+			"icon": "SPEECH_BUBBLE",
+			"objectives": [
+				"DIALOGUE 1f3c4c31-a3be-49a9-a133-7c87377f3cfc npcName intro introOk - - - - - - -",
+				"NPC_TALK 1f3c4c31-a3be-49a9-a133-7c87377f3cfc"
+			],
+			"actions": [
+        "1 MESSAGE \u00A7eWillkommen_im_Inn._Du_soltest_auch_mit_den_anderen_Angestellten_reden,_um_mehr_Informationen_ueber_die_Nutzung_des_Inn_zu_erhalten.",
+        "1 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
+        "1 COMMAND pay_@p_1000",
+				"1 COMPLETE_QUEST",
+				"1 END_DIALOGUE"
+			]
+		}
+  ],
+  "strings": {
+    "name": "Volles Inventar",
+    "desc-10": "Gehe zum Inn",
+    "stage-10-0": "Sprich mit dem Wirt",
+    "npcName": "Wirt",
+    "intro": "Willkommen im Inn. Hier kannst du einen Raum mieten um deine gesammelten Items zu lagern.",
+    "introOk": "Okay"
+  }
+}

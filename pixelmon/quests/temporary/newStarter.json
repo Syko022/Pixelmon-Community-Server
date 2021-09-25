@@ -1,0 +1,42 @@
+{
+  "weight": 0,
+  "abandonable": true,
+  "repeatable": false,
+  "color": {
+    "r": 255,
+    "g": 0,
+    "b": 255
+  },
+  "activeStage": 10,
+  "stages": [
+    {
+      "stage": 0,
+      "nextStage": -1,
+      "icon": "EXCLAMATION_MARK",
+      "objectives": [
+        "DIALOGUE b869efab-c6df-4f93-8dc0-8140472b1c5d npcName start starter1 starter2 starterNo - - - - -",
+        "NPC_RESPOND b869efab-c6df-4f93-8dc0-8140472b1c5d 0",
+        "NPC_RESPOND b869efab-c6df-4f93-8dc0-8140472b1c5d 1",
+        "NPC_RESPOND b869efab-c6df-4f93-8dc0-8140472b1c5d 2"
+      ],
+      "actions": [
+        "1 POKEMON_GIVE riolu_lvl:5_shiny:true",
+        "1 END_DIALOGUE",
+        "1 COMPLETE_QUEST",
+        "2 POKEMON_GIVE honedge_lvl:5_shiny:true",
+        "2 END_DIALOGUE",
+        "2 COMPLETE_QUEST",
+        "3 END_DIALOGUE"
+      ]
+    }
+  ],
+  "strings": {
+	"name": "Starter",
+	"start": "Um nicht leer auszugehen kannst du hier einen der neuen Starter waehlen.",
+	"starter1": "Riolu",
+	"starter2": "Gramokles",
+	"starterNo": "Nicht jetzt",
+	"end": "Ende",
+	"goodbye": "Auf Wiedersehen"
+  }
+}
