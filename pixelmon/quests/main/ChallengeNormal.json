@@ -57,6 +57,7 @@
     "stage-20-0": "Besiege den Arenaleiter",
     "npcName": "Liga Angestellter",
     "intro": "Viel Erfolg bei deinem Kampf",
-    "introOk": "Danke!"
+    "introOk": "Danke!",
+    "introNo": "Ich bin noch nicht bereit..."
   }
 }
