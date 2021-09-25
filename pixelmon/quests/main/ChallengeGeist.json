@@ -23,8 +23,8 @@
 			"nextStage": 20,
 			"icon": "SPEECH_BUBBLE",
 			"objectives": [
-				"DIALOGUE asdf npcName intro introOk introNo - - - - - -",
-				"NPC_TALK asdf"
+				"DIALOGUE 75aac9c6-329e-4c80-a7e3-ce0723f8eec2 npcName intro introOk introNo - - - - - -",
+				"NPC_TALK 75aac9c6-329e-4c80-a7e3-ce0723f8eec2"
 			],
 			"actions": [
 				"1 SET_STAGE 20 -",
