@@ -46,7 +46,6 @@
         "+0,1,2 COMMAND say_@p_hat_den_Reliktorden_erhalten!",
         "+0,1,2 COMMAND givemoney_@p_6000",
         "+0,1,2 ITEM_GIVE pixelmon:relic_badge 1 - - - - - - -",
-        "+0,1,2 ITEM_GIVE pixelmon:tm164 1 - - - - - - -",
         "+0,1,2 COMPLETE_QUEST"
       ]
     }

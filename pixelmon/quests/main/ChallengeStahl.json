@@ -47,7 +47,6 @@
         "+0,1,2,3 COMMAND say_@p_hat_den_Blattorden_erhalten!",
         "+0,1,2,3 COMMAND givemoney_@p_8000",
         "+0,1,2,3 ITEM_GIVE pixelmon:plant_badge 1 - - - - - - -",
-        "+0,1,2,3 ITEM_GIVE pixelmon:tm86 1 - - - - - - -",
         "+0,1,2,3 COMPLETE_QUEST"
       ]
     }

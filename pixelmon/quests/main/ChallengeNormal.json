@@ -45,7 +45,6 @@
         "+0,1 COMMAND say_@p_hat_den_Basisorden_erhalten!",
         "+0,1 COMMAND givemoney_@p_4000",
         "+0,1 ITEM_GIVE pixelmon:plain_badge 1 - - - - - - -",
-        "+0,1 ITEM_GIVE pixelmon:tm45 1 - - - - - - -",
         "+0,1 COMPLETE_QUEST"
       ]
     }
