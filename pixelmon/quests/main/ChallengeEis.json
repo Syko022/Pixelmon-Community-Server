@@ -36,25 +36,26 @@
       "nextStage": -1,
       "icon": "POKEBALL",
       "objectives": [
-        "POKEMON_DEFEAT bronzor_lvl:25 1",
-        "POKEMON_DEFEAT mawile_lvl:25 1",
-        "POKEMON_DEFEAT steelix_lvl:25 1",
-        "POKEMON_DEFEAT metang_lvl:25 1",
-        "POKEMON_DEFEAT honedge_lvl:26 1"
+        "POKEMON_DEFEAT walrein_lvl:75 1",
+        "POKEMON_DEFEAT mamoswine_lvl:75 1",
+        "POKEMON_DEFEAT jynx_lvl:75 1",
+        "POKEMON_DEFEAT ninetales_lvl:75 1",
+        "POKEMON_DEFEAT sandslash_lvl:75 1",
+        "POKEMON_DEFEAT darmantian_lvl:76 1"
       ],
       "actions": [
-        "+0,1,2,3,4 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
-				"+0,1,2,3,4 SET_STAGE 10 ChallengeWasser.json",
-        "+0,1,2,3,4 COMMAND say_@p_hat_den_Stahlorden_erhalten!",
-        "+0,1,2,3,4 COMMAND givemoney_@p_10000",
-        "+0,1,2,3,4 ITEM_GIVE pixelmon:mineral_badge 1 - - - - - - -",
-        "+0,1,2,3,4 COMPLETE_QUEST"
+        "+0,1,2,3,4,5 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
+				"+0,1,2,3,4,5 SET_STAGE 10 ChallengeElektro.json",
+        "+0,1,2,3,4,5 COMMAND say_@p_hat_den_Eisorden_erhalten!",
+        "+0,1,2,3,4,5 COMMAND givemoney_@p_30000",
+        "+0,1,2,3,4,5 ITEM_GIVE pixelmon:glacier_badge 1 - - - - - - -",
+        "+0,1,2,3,4,5 COMPLETE_QUEST"
       ]
     }
   ],
   "strings": {
-    "name": "Stahlorden",
-    "desc-10": "Gehe zur Stahl-Arena",
+    "name": "Eisorden",
+    "desc-10": "Gehe zur Eis-Arena",
     "desc-20": "Arenakampf",
     "stage-10-0": "Melde dich zum Kampf an",
     "stage-20-0": "Besiege den Arenaleiter",

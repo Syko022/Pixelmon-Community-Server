@@ -36,25 +36,26 @@
       "nextStage": -1,
       "icon": "POKEBALL",
       "objectives": [
-        "POKEMON_DEFEAT bronzor_lvl:25 1",
-        "POKEMON_DEFEAT mawile_lvl:25 1",
-        "POKEMON_DEFEAT steelix_lvl:25 1",
-        "POKEMON_DEFEAT metang_lvl:25 1",
-        "POKEMON_DEFEAT honedge_lvl:26 1"
+        "POKEMON_DEFEAT golisopod_lvl:85 1",
+        "POKEMON_DEFEAT ariados_lvl:85 1",
+        "POKEMON_DEFEAT pinsir_lvl:85 1",
+        "POKEMON_DEFEAT masquerain_lvl:85 1",
+        "POKEMON_DEFEAT vespiquen_lvl:85 1",
+        "POKEMON_DEFEAT scizor_lvl:86 1"
       ],
       "actions": [
-        "+0,1,2,3,4 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
-				"+0,1,2,3,4 SET_STAGE 10 ChallengeWasser.json",
-        "+0,1,2,3,4 COMMAND say_@p_hat_den_Stahlorden_erhalten!",
-        "+0,1,2,3,4 COMMAND givemoney_@p_10000",
-        "+0,1,2,3,4 ITEM_GIVE pixelmon:mineral_badge 1 - - - - - - -",
-        "+0,1,2,3,4 COMPLETE_QUEST"
+        "+0,1,2,3,4,5 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
+				"+0,1,2,3,4,5 SET_STAGE 10 ChallengeFee.json",
+        "+0,1,2,3,4,5 COMMAND say_@p_hat_den_Insektorden_erhalten!",
+        "+0,1,2,3,4,5 COMMAND givemoney_@p_34000",
+        "+0,1,2,3,4,5 ITEM_GIVE pixelmon:hive_badge 1 - - - - - - -",
+        "+0,1,2,3,4,5 COMPLETE_QUEST"
       ]
     }
   ],
   "strings": {
-    "name": "Stahlorden",
-    "desc-10": "Gehe zur Stahl-Arena",
+    "name": "Insektorden",
+    "desc-10": "Gehe zur Kaefer-Arena",
     "desc-20": "Arenakampf",
     "stage-10-0": "Melde dich zum Kampf an",
     "stage-20-0": "Besiege den Arenaleiter",

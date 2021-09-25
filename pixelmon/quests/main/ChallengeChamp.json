@@ -1,0 +1,69 @@
+{
+  "weight": 0,
+  "abandonable": false,
+  "repeatable": true,
+  "color": {
+    "r": 167,
+    "g": 255,
+    "b": 66
+  },
+  "activeStage": 10,
+  "stages": [
+    {
+      "stage": 0,
+      "nextStage": 10,
+      "icon": "FOUR_POINTED_STAR",
+      "objectives": [
+        "BLOCKER"
+      ],
+      "actions": []
+    },
+		{
+			"stage": 10,
+			"nextStage": 20,
+			"icon": "SPEECH_BUBBLE",
+			"objectives": [
+				"DIALOGUE asdf npcName intro introOk introNo - - - - - -",
+				"NPC_TALK asdf"
+			],
+			"actions": [
+				"1 SET_STAGE 20 -",
+				"1 END_DIALOGUE"
+			]
+		},
+    {
+      "stage": 20,
+      "nextStage": -1,
+      "icon": "POKEBALL",
+      "objectives": [
+        "POKEMON_DEFEAT charizard_lvl:100 1",
+        "POKEMON_DEFEAT sceptile_lvl:100 1",
+        "POKEMON_DEFEAT greninja_lvl:100 1",
+        "POKEMON_DEFEAT gengar_lvl:100 1",
+        "POKEMON_DEFEAT tyranitar_lvl:100 1",
+        "POKEMON_DEFEAT metagross_lvl:100 1"
+      ],
+      "actions": [
+        "+0,1,2,3,4,5 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
+        "+0,1,2,3,4,5 COMMAND say_@p_hat_den_Champ_besiegt!",
+        "+0,1,2,3,4,5 COMMAND givemoney_@p_40000",
+        "+0,1,2,3,4,5 COMMAND lp_user_@p_parent_add_defeatedchamp",
+        "+0,1,2,3,4,5 COMMAND lp_user_@p_parent_add_canbuyland",
+        "+0,1,2,3,4,5 ITEM_GIVE pixelmon:legend_badge 1 - - - - - - -",
+        "+0,1,2,3,4,5 MESSAGE \u00A7eHerzlichen_Glueckwunsch_zu_deinem_Sieg_gegen_den_Champ!",
+        "+0,1,2,3,4,5 MESSAGE \u00A7eDu_hast_dir_damit_das_Recht_verdient,_ein_Grundstueck_zu_kaufen._Sprich_fuer_mehr_Infos_mit_dem_Ingenieur_an Eingang_der_Arena",
+        "+0,1,2,3,4,5 COMPLETE_QUEST"
+      ]
+    }
+  ],
+  "strings": {
+    "name": "Der Champ",
+    "desc-10": "Gehe zur Liga-Arena",
+    "desc-20": "Arenakampf",
+    "stage-10-0": "Melde dich zum Kampf an",
+    "stage-20-0": "Besiege den Champ",
+    "npcName": "Liga Angestellter",
+    "intro": "Viel Erfolg bei deinem Kampf",
+    "introOk": "Danke!"
+  }
+}

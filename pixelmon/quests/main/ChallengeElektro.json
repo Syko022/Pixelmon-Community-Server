@@ -36,28 +36,29 @@
       "nextStage": -1,
       "icon": "POKEBALL",
       "objectives": [
-        "POKEMON_DEFEAT bronzor_lvl:25 1",
-        "POKEMON_DEFEAT mawile_lvl:25 1",
-        "POKEMON_DEFEAT steelix_lvl:25 1",
-        "POKEMON_DEFEAT metang_lvl:25 1",
-        "POKEMON_DEFEAT honedge_lvl:26 1"
+        "POKEMON_DEFEAT plusle_lvl:80 1",
+        "POKEMON_DEFEAT minun_lvl:80 1",
+        "POKEMON_DEFEAT pikachu_lvl:80 1",
+        "POKEMON_DEFEAT emolga_lvl:80 1",
+        "POKEMON_DEFEAT morpeko_lvl:80 1",
+        "POKEMON_DEFEAT ampharos_lvl:81 1"
       ],
       "actions": [
-        "+0,1,2,3,4 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
-				"+0,1,2,3,4 SET_STAGE 10 ChallengeWasser.json",
-        "+0,1,2,3,4 COMMAND say_@p_hat_den_Stahlorden_erhalten!",
-        "+0,1,2,3,4 COMMAND givemoney_@p_10000",
-        "+0,1,2,3,4 ITEM_GIVE pixelmon:mineral_badge 1 - - - - - - -",
-        "+0,1,2,3,4 COMPLETE_QUEST"
+        "+0,1,2,3,4,5 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
+				"+0,1,2,3,4,5 SET_STAGE 10 ChallengeKaefer.json",
+        "+0,1,2,3,4,5 COMMAND say_@p_hat_den_Voltorden_erhalten!",
+        "+0,1,2,3,4,5 COMMAND givemoney_@p_32000",
+        "+0,1,2,3,4,5 ITEM_GIVE pixelmon:bolt_badge 1 - - - - - - -",
+        "+0,1,2,3,4,5 COMPLETE_QUEST"
       ]
     }
   ],
   "strings": {
-    "name": "Stahlorden",
-    "desc-10": "Gehe zur Stahl-Arena",
+    "name": "Voltorden",
+    "desc-10": "Gehe zur Eis-Arena",
     "desc-20": "Arenakampf",
     "stage-10-0": "Melde dich zum Kampf an",
-    "stage-20-0": "Besiege den Arenaleiter",
+    "stage-20-0": "Besiege die Arenaleiterin",
     "npcName": "Liga Angestellter",
     "intro": "Viel Erfolg bei deinem Kampf",
     "introOk": "Danke!"

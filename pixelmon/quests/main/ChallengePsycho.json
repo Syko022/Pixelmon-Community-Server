@@ -36,25 +36,26 @@
       "nextStage": -1,
       "icon": "POKEBALL",
       "objectives": [
-        "POKEMON_DEFEAT bronzor_lvl:25 1",
-        "POKEMON_DEFEAT mawile_lvl:25 1",
-        "POKEMON_DEFEAT steelix_lvl:25 1",
-        "POKEMON_DEFEAT metang_lvl:25 1",
-        "POKEMON_DEFEAT honedge_lvl:26 1"
+        "POKEMON_DEFEAT hypno_lvl:70 1",
+        "POKEMON_DEFEAT sigilyph_lvl:70 1",
+        "POKEMON_DEFEAT mrmime_lvl:70 1",
+        "POKEMON_DEFEAT xatu_lvl:70 1",
+        "POKEMON_DEFEAT gardevoir_lvl:70 1",
+        "POKEMON_DEFEAT alakazam_lvl:71 1"
       ],
       "actions": [
-        "+0,1,2,3,4 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
-				"+0,1,2,3,4 SET_STAGE 10 ChallengeWasser.json",
-        "+0,1,2,3,4 COMMAND say_@p_hat_den_Stahlorden_erhalten!",
-        "+0,1,2,3,4 COMMAND givemoney_@p_10000",
-        "+0,1,2,3,4 ITEM_GIVE pixelmon:mineral_badge 1 - - - - - - -",
-        "+0,1,2,3,4 COMPLETE_QUEST"
+        "+0,1,2,3,4,5 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
+				"+0,1,2,3,4,5 SET_STAGE 10 ChallengeEis.json",
+        "+0,1,2,3,4,5 COMMAND say_@p_hat_den_Mentalorden_erhalten!",
+        "+0,1,2,3,4,5 COMMAND givemoney_@p_28000",
+        "+0,1,2,3,4,5 ITEM_GIVE pixelmon:mind_badge 1 - - - - - - -",
+        "+0,1,2,3,4,5 COMPLETE_QUEST"
       ]
     }
   ],
   "strings": {
-    "name": "Stahlorden",
-    "desc-10": "Gehe zur Stahl-Arena",
+    "name": "Mentalorden",
+    "desc-10": "Gehe zur Psycho-Arena",
     "desc-20": "Arenakampf",
     "stage-10-0": "Melde dich zum Kampf an",
     "stage-20-0": "Besiege den Arenaleiter",
