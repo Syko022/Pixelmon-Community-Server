@@ -29,7 +29,7 @@
 			"actions": [
         "1 MESSAGE \u00A7eWillkommen_im_Inn._Du_soltest_auch_mit_den_anderen_Angestellten_reden,_um_mehr_Informationen_ueber_die_Nutzung_des_Inn_zu_erhalten.",
         "1 SOUND 0 1 0 relative entity.player.levelup neutral 1 1",
-        "1 COMMAND pay_@p_1000",
+        "1 COMMAND eco_set_@p_1000",
 				"1 COMPLETE_QUEST",
 				"1 END_DIALOGUE"
 			]
