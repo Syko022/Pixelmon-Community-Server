@@ -14,7 +14,7 @@
       "nextStage": 10,
       "icon": "FOUR_POINTED_STAR",
       "objectives": [
-        "POKEMON_DEFEAT - 1"
+        "POKEMON_DEFEAT DexRange:1-898 1"
       ],
       "actions": [
         "0 MESSAGE \u00A7eHerzlichen_Glueckwunsch_zum_Besiegen_deines_ersten_Pokemon._Um_deine_Pokemon_zu_heilen_suche_den_naechsten_Pokecenter_auf._Du_erkennst_ihn_am_roten_Dach.",
@@ -42,7 +42,7 @@
       "nextStage": -1,
       "icon": "FOUR_POINTED_STAR",
       "objectives": [
-        "POKEMON_CAPTURE - 1"
+        "POKEMON_CAPTURE DexRange:1-898 1"
       ],
       "actions": [
         "0 MESSAGE \u00A7eDu_hast_das_Tutorial_abgeschlossen!_Ueberpruefe_dein_Qest-Log_(Standard_N)_um_deine_naechsten_Aufgaben_aunzusehen.",
